@@ -1,0 +1,13 @@
+2024-03-09 11:03:28.275 +07 [22152] LOG:  starting PostgreSQL 16.1 on aarch64-unknown-linux-android, compiled by Android (10552028, +pgo, +bolt, +lto, -mlgo, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362), 64-bit
+2024-03-09 11:03:28.277 +07 [22152] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-09 11:03:28.280 +07 [22152] LOG:  listening on Unix socket "/data/data/com.termux/files/usr/tmp/.s.PGSQL.5432"
+2024-03-09 11:03:28.372 +07 [22170] LOG:  database system was interrupted; last known up at 2024-03-08 22:06:49 +07
+2024-03-09 11:03:28.717 +07 [22170] LOG:  database system was not properly shut down; automatic recovery in progress
+2024-03-09 11:03:28.726 +07 [22170] LOG:  redo starts at 0/1E4D090
+2024-03-09 11:03:28.727 +07 [22170] LOG:  invalid record length at 0/1E4D178: expected at least 24, got 0
+2024-03-09 11:03:28.727 +07 [22170] LOG:  redo done at 0/1E4D140 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2024-03-09 11:03:28.739 +07 [22166] LOG:  checkpoint starting: end-of-recovery immediate wait
+2024-03-09 11:03:28.754 +07 [22166] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.002 s, total=0.017 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/1E4D178, redo lsn=0/1E4D178
+2024-03-09 11:03:28.765 +07 [22152] LOG:  database system is ready to accept connections
+2024-03-09 11:08:28.775 +07 [22166] LOG:  checkpoint starting: time
+2024-03-09 11:08:34.106 +07 [22166] LOG:  checkpoint complete: wrote 52 buffers (0.3%); 0 WAL file(s) added, 0 removed, 0 recycled; write=5.266 s, sync=0.041 s, total=5.337 s; sync files=39, longest=0.004 s, average=0.002 s; distance=196 kB, estimate=196 kB; lsn=0/1E7E500, redo lsn=0/1E7E4C8
